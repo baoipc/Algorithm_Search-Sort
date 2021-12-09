@@ -3,7 +3,8 @@
 ### Tìm kiếm tuyến tính
 Cho danh sách có n phần tử a<sub>1</sub>,a<sub>2</sub>,...,a<sub>n</sub>.Tìm phần tử có khoá bằng X trong mảng
 - ##### Giải thuật tìm kiếm tuyến tính (tìm tuần tự)
-    Vòng lặp chạy đến độ dài mảng, trong quá trình chạy thêm điều kiện dừng của mảng là tìm thấy giá trị X. O<sub>min</sub> = 1, O<sub>max</sub> = n
+    Vòng lặp chạy đến độ dài mảng, trong quá trình chạy thêm điều kiện dừng của mảng là tìm thấy giá trị X. 
+    O<sub>min</sub> = 1, O<sub>max</sub> = n
     Chúng ta cải tiến bằng cách đặt "lính canh", đặt giá trị cần tìm vào độ dài mảng + 1
     ```
      a[n+1]=X;
